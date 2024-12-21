@@ -12,8 +12,6 @@ Para ser claro, aqui está como criptografar HELLO com uma chave de 1 resulta em
 ![Tabela de Pontuação](https://assets.circle.so/iri0abieqj5izjujgb6y3h9tc4tb)
 
 Formalmente, o algoritmo de César criptografa mensagens “girando” cada letra em k posições. Se p é algum texto simples (ou seja, uma mensagem não criptografada), Pi é o i-ésimo caractere em p e k é uma chave secreta um inteiro não negativo), então cada letra, Ci, em o texto cifrado c, é calculado como:
-## Fórmula 
-
 ```formula
   Ci= (Pi + k) % 26
 ```
@@ -25,8 +23,6 @@ em que % 26 aqui significa "resto ao dividir por 26". Essa fórmula talvez faça
 Suponha que César queira dizer "HI" para alguém de forma confidencial usando, desta vez, uma chave k = 3. Então, seu texto simples, Pi, é "HI", onde o primeiro caractere do texto simples, P1​, é O (ou seja, 7), e o segundo caractere do texto simples, P2​, é i (ou seja, 8). O primeiro caractere do texto cifrado, C1​, é então K, e o segundo caractere do texto cifrado, C2​, é L. Faz sentido?
 
 # Exemplo 
-
-## Fórmula 
 
 ```Run
 $ ./caesar 13
